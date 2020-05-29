@@ -40,6 +40,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: target/kafka-consumer-1.0-SNAPSHOT.jar
-          asset_name: kafka-consumer-1.0-SNAPSHOT.jar
+          asset_path: target/Kafka-Consumer-1.0-SNAPSHOT.jar
+          asset_name: Kafka-Consumer-1.0-SNAPSHOT.jar
           asset_content_type: application/java-archive
